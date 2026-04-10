@@ -1,0 +1,288 @@
+{
+  "root": {
+    "type": "frame",
+    "x": 0,
+    "y": 0,
+    "width": 1200,
+    "height": 800,
+    "layout": "vertical",
+    "padding": 40,
+    "gap": 30,
+    "fillColor": "#F9FAFB",
+    "borderWidth": 0,
+    "children": [
+      {
+        "type": "text",
+        "x": 0,
+        "y": 0,
+        "width": 800,
+        "height": "fit-content",
+        "text": "用户登录系统架构图",
+        "fontSize": 28,
+        "fontWeight": "bold",
+        "textAlign": "center",
+        "fillColor": "#FFFFFF",
+        "borderWidth": 0,
+        "textColor": "#1F2937"
+      },
+      {
+        "type": "frame",
+        "x": 0,
+        "y": 0,
+        "width": 1000,
+        "height": 600,
+        "layout": "horizontal",
+        "gap": 40,
+        "padding": 20,
+        "fillColor": "#FFFFFF",
+        "borderRadius": 12,
+        "borderWidth": 2,
+        "borderColor": "#E5E7EB",
+        "children": [
+          {
+            "type": "frame",
+            "width": 300,
+            "height": 500,
+            "layout": "vertical",
+            "gap": 20,
+            "fillColor": "#DBEAFE",
+            "borderRadius": 8,
+            "borderWidth": 2,
+            "borderColor": "#3B82F6",
+            "children": [
+              {
+                "type": "text",
+                "width": "fill-container",
+                "height": "fit-content",
+                "text": "表现层 (Handlers)",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "textAlign": "center",
+                "fillColor": "#3B82F6",
+                "textColor": "#FFFFFF",
+                "padding": 10
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": "fit-content",
+                "text": "UserHandler",
+                "fontSize": 16,
+                "padding": 12,
+                "fillColor": "#EFF6FF",
+                "borderWidth": 2,
+                "borderColor": "#2563EB",
+                "borderRadius": 6
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": "fit-content",
+                "text": "RegisterHandler",
+                "fontSize": 14,
+                "padding": 10,
+                "fillColor": "#EFF6FF",
+                "borderWidth": 1,
+                "borderColor": "#60A5FA",
+                "borderRadius": 4
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": "fit-content",
+                "text": "LoginHandler",
+                "fontSize": 14,
+                "padding": 10,
+                "fillColor": "#EFF6FF",
+                "borderWidth": 1,
+                "borderColor": "#60A5FA",
+                "borderRadius": 4
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": "fit-content",
+                "text": "ProfileHandler",
+                "fontSize": 14,
+                "padding": 10,
+                "fillColor": "#EFF6FF",
+                "borderWidth": 1,
+                "borderColor": "#60A5FA",
+                "borderRadius": 4
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "width": 300,
+            "height": 500,
+            "layout": "vertical",
+            "gap": 20,
+            "fillColor": "#F0FDF8",
+            "borderRadius": 8,
+            "borderWidth": 2,
+            "borderColor": "#10B981",
+            "children": [
+              {
+                "type": "text",
+                "width": "fill-container",
+                "height": "fit-content",
+                "text": "业务层 (Services)",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "textAlign": "center",
+                "fillColor": "#10B981",
+                "textColor": "#FFFFFF",
+                "padding": 10
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": "fit-content",
+                "text": "UserService",
+                "fontSize": 16,
+                "padding": 12,
+                "fillColor": "#ECFDF5",
+                "borderWidth": 2,
+                "borderColor": "#059669",
+                "borderRadius": 6
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": "fit-content",
+                "text": "Register()",
+                "fontSize": 14,
+                "padding": 10,
+                "fillColor": "#ECFDF5",
+                "borderWidth": 1,
+                "borderColor": "#34D399",
+                "borderRadius": 4
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": "fit-content",
+                "text": "Login()",
+                "fontSize": 14,
+                "padding": 10,
+                "fillColor": "#ECFDF5",
+                "borderWidth": 1,
+                "borderColor": "#34D399",
+                "borderRadius": 4
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": "fit-content",
+                "text": "GetUserByUsername()",
+                "fontSize": 14,
+                "padding": 10,
+                "fillColor": "#ECFDF5",
+                "borderWidth": 1,
+                "borderColor": "#34D399",
+                "borderRadius": 4
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "width": 300,
+            "height": 500,
+            "layout": "vertical",
+            "gap": 20,
+            "fillColor": "#FEEBEE",
+            "borderRadius": 8,
+            "borderWidth": 2,
+            "borderColor": "#EF4444",
+            "children": [
+              {
+                "type": "text",
+                "width": "fill-container",
+                "height": "fit-content",
+                "text": "数据层 (Models)",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "textAlign": "center",
+                "fillColor": "#EF4444",
+                "textColor": "#FFFFFF",
+                "padding": 10
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": "fit-content",
+                "text": "User",
+                "fontSize": 16,
+                "padding": 12,
+                "fillColor": "#FEF1F2",
+                "borderWidth": 2,
+                "borderColor": "#DC2626",
+                "borderRadius": 6
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": "fit-content",
+                "text": "UserLogin",
+                "fontSize": 14,
+                "padding": 10,
+                "fillColor": "#FEF1F2",
+                "borderWidth": 1,
+                "borderColor": "#F87171",
+                "borderRadius": 4
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": "fit-content",
+                "text": "UserRegister",
+                "fontSize": 14,
+                "padding": 10,
+                "fillColor": "#FEF1F2",
+                "borderWidth": 1,
+                "borderColor": "#F87171",
+                "borderRadius": 4
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": "fit-content",
+                "text": "UserResponse",
+                "fontSize": 14,
+                "padding": 10,
+                "fillColor": "#FEF1F2",
+                "borderWidth": 1,
+                "borderColor": "#F87171",
+                "borderRadius": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 0,
+        "width": 800,
+        "height": "fit-content",
+        "text": "外部接口: HTTP API",
+        "fontSize": 16,
+        "textAlign": "center",
+        "fillColor": "#FFFFFF",
+        "borderWidth": 0,
+        "textColor": "#4B5563"
+      }
+    ]
+  },
+  "connectors": [
+    {
+      "fromId": "表现层-业务层",
+      "toId": "业务层-数据层",
+      "color": "#6B7280",
+      "strokeWidth": 2,
+      "startArrow": "none",
+      "endArrow": "arrow"
+    }
+  ]
+}

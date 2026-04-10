@@ -1,0 +1,526 @@
+{
+  "root": {
+    "type": "frame",
+    "x": 0,
+    "y": 0,
+    "width": 1200,
+    "height": 800,
+    "layout": "vertical",
+    "padding": 40,
+    "gap": 30,
+    "fillColor": "#F9FAFB",
+    "borderWidth": 0,
+    "children": [
+      {
+        "type": "text",
+        "x": 0,
+        "y": 0,
+        "width": 800,
+        "height": "fit-content",
+        "text": "用户登录系统时序图",
+        "fontSize": 28,
+        "fontWeight": "bold",
+        "textAlign": "center",
+        "fillColor": "#FFFFFF",
+        "borderWidth": 0,
+        "textColor": "#1F2937"
+      },
+      {
+        "type": "frame",
+        "x": 0,
+        "y": 0,
+        "width": 1000,
+        "height": 600,
+        "layout": "horizontal",
+        "gap": 30,
+        "padding": 20,
+        "fillColor": "#FFFFFF",
+        "borderRadius": 12,
+        "borderWidth": 2,
+        "borderColor": "#E5E7EB",
+        "children": [
+          {
+            "type": "frame",
+            "width": 180,
+            "height": 550,
+            "layout": "vertical",
+            "gap": 10,
+            "fillColor": "#FFE7D6",
+            "borderRadius": 8,
+            "borderWidth": 2,
+            "borderColor": "#F97316",
+            "children": [
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": "fit-content",
+                "text": "Client",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "padding": 15,
+                "fillColor": "#FDBA74",
+                "borderWidth": 2,
+                "borderColor": "#EA580C",
+                "borderRadius": 6,
+                "textAlign": "center"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "width": 180,
+            "height": 550,
+            "layout": "vertical",
+            "gap": 10,
+            "fillColor": "#DBEAFE",
+            "borderRadius": 8,
+            "borderWidth": 2,
+            "borderColor": "#3B82F6",
+            "children": [
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": "fit-content",
+                "text": "HTTP Handler",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "padding": 15,
+                "fillColor": "#BAE6FD",
+                "borderWidth": 2,
+                "borderColor": "#2563EB",
+                "borderRadius": 6,
+                "textAlign": "center"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "width": 180,
+            "height": 550,
+            "layout": "vertical",
+            "gap": 10,
+            "fillColor": "#F0FDF8",
+            "borderRadius": 8,
+            "borderWidth": 2,
+            "borderColor": "#10B981",
+            "children": [
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": "fit-content",
+                "text": "User Service",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "padding": 15,
+                "fillColor": "#A7F3D0",
+                "borderWidth": 2,
+                "borderColor": "#059669",
+                "borderRadius": 6,
+                "textAlign": "center"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "width": 180,
+            "height": 550,
+            "layout": "vertical",
+            "gap": 10,
+            "fillColor": "#FEEBEE",
+            "borderRadius": 8,
+            "borderWidth": 2,
+            "borderColor": "#EF4444",
+            "children": [
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": "fit-content",
+                "text": "User Storage",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "padding": 15,
+                "fillColor": "#FECACA",
+                "borderWidth": 2,
+                "borderColor": "#DC2626",
+                "borderRadius": 6,
+                "textAlign": "center"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "width": 180,
+            "height": 550,
+            "layout": "vertical",
+            "gap": 10,
+            "fillColor": "#EDE9FE",
+            "borderRadius": 8,
+            "borderWidth": 2,
+            "borderColor": "#8B5CF6",
+            "children": [
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": "fit-content",
+                "text": "Response",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "padding": 15,
+                "fillColor": "#DDD6FE",
+                "borderWidth": 2,
+                "borderColor": "#7C3AED",
+                "borderRadius": 6,
+                "textAlign": "center"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              },
+              {
+                "type": "rect",
+                "width": "fill-container",
+                "height": 40,
+                "fillColor": "#FFFFFF",
+                "borderWidth": 1,
+                "borderColor": "#E5E7EB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "x": 0,
+        "y": 0,
+        "width": 1000,
+        "height": 100,
+        "layout": "vertical",
+        "gap": 10,
+        "fillColor": "#FFFFFF",
+        "borderWidth": 0,
+        "children": [
+          {
+            "type": "text",
+            "width": "fill-container",
+            "height": "fit-content",
+            "text": "步骤 1: Client 发送登录请求",
+            "fontSize": 14,
+            "fillColor": "#FFFFFF",
+            "borderWidth": 0,
+            "textColor": "#4B5563"
+          },
+          {
+            "type": "text",
+            "width": "fill-container",
+            "height": "fit-content",
+            "text": "步骤 2: HTTP Handler 解析请求参数",
+            "fontSize": 14,
+            "fillColor": "#FFFFFF",
+            "borderWidth": 0,
+            "textColor": "#4B5563"
+          },
+          {
+            "type": "text",
+            "width": "fill-container",
+            "height": "fit-content",
+            "text": "步骤 3: User Service 验证用户凭据",
+            "fontSize": 14,
+            "fillColor": "#FFFFFF",
+            "borderWidth": 0,
+            "textColor": "#4B5563"
+          },
+          {
+            "type": "text",
+            "width": "fill-container",
+            "height": "fit-content",
+            "text": "步骤 4: User Storage 检索用户数据",
+            "fontSize": 14,
+            "fillColor": "#FFFFFF",
+            "borderWidth": 0,
+            "textColor": "#4B5563"
+          },
+          {
+            "type": "text",
+            "width": "fill-container",
+            "height": "fit-content",
+            "text": "步骤 5: 返回用户信息到 Client",
+            "fontSize": 14,
+            "fillColor": "#FFFFFF",
+            "borderWidth": 0,
+            "textColor": "#4B5563"
+          }
+        ]
+      }
+    ]
+  },
+  "connectors": [
+    {
+      "type": "arrow",
+      "x1": 250,
+      "y1": 150,
+      "x2": 430,
+      "y2": 150,
+      "color": "#F97316",
+      "strokeWidth": 2,
+      "label": "POST /api/v1/users/login"
+    },
+    {
+      "type": "arrow",
+      "x1": 430,
+      "y1": 200,
+      "x2": 610,
+      "y2": 200,
+      "color": "#0EA5E9",
+      "strokeWidth": 2,
+      "label": "Validate Credentials"
+    },
+    {
+      "type": "arrow",
+      "x1": 610,
+      "y1": 250,
+      "x2": 790,
+      "y2": 250,
+      "color": "#10B981",
+      "strokeWidth": 2,
+      "label": "Query User Data"
+    },
+    {
+      "type": "arrow",
+      "x1": 790,
+      "y1": 300,
+      "x2": 970,
+      "y2": 300,
+      "color": "#8B5CF6",
+      "strokeWidth": 2,
+      "label": "Return User Info"
+    }
+  ]
+}
